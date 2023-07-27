@@ -1,0 +1,16 @@
+C:\Users\mic\Documents\GitHub\NASH\Src\NashNamer\NashNamer\bin\Release\NashNamer.exe.config
+C:\Users\mic\Documents\GitHub\NASH\Src\NashNamer\NashNamer\bin\Release\NashNamer.exe
+C:\Users\mic\Documents\GitHub\NASH\Src\NashNamer\NashNamer\bin\Release\NashNamer.pdb
+C:\Users\mic\Documents\GitHub\NASH\Src\NashNamer\NashNamer\obj\Release\NashNamer.csproj.AssemblyReference.cache
+C:\Users\mic\Documents\GitHub\NASH\Src\NashNamer\NashNamer\obj\Release\NashNamer.csproj.SuggestedBindingRedirects.cache
+C:\Users\mic\Documents\GitHub\NASH\Src\NashNamer\NashNamer\obj\Release\NashNamer.csproj.CoreCompileInputs.cache
+C:\Users\mic\Documents\GitHub\NASH\Src\NashNamer\NashNamer\obj\Release\NashNamer.exe
+C:\Users\mic\Documents\GitHub\NASH\Src\NashNamer\NashNamer\obj\Release\NashNamer.pdb
+C:\Users\micha\Documents\GitHub\NASH\Src\NashNamer\NashNamer\bin\Release\NashNamer.exe.config
+C:\Users\micha\Documents\GitHub\NASH\Src\NashNamer\NashNamer\bin\Release\NashNamer.exe
+C:\Users\micha\Documents\GitHub\NASH\Src\NashNamer\NashNamer\bin\Release\NashNamer.pdb
+C:\Users\micha\Documents\GitHub\NASH\Src\NashNamer\NashNamer\obj\Release\NashNamer.csproj.AssemblyReference.cache
+C:\Users\micha\Documents\GitHub\NASH\Src\NashNamer\NashNamer\obj\Release\NashNamer.csproj.SuggestedBindingRedirects.cache
+C:\Users\micha\Documents\GitHub\NASH\Src\NashNamer\NashNamer\obj\Release\NashNamer.csproj.CoreCompileInputs.cache
+C:\Users\micha\Documents\GitHub\NASH\Src\NashNamer\NashNamer\obj\Release\NashNamer.exe
+C:\Users\micha\Documents\GitHub\NASH\Src\NashNamer\NashNamer\obj\Release\NashNamer.pdb
