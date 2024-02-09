@@ -1,21 +1,10 @@
 ﻿using System;
-using System.Linq;
-using System.Text;
 using System.Windows.Forms;
-using System.Runtime.InteropServices;
 using System.IO;
 using System.Diagnostics;
-using System.Management;
-using System.Security.Cryptography;
-using System.Collections.Generic;
 using System.Threading.Tasks;
-using System.Threading;
 using System.Drawing;
-using System.ComponentModel;
-using System.Data;
-using System.Globalization;
 using EO.WebBrowser;
-using System.Runtime.Serialization;
 using System.Drawing.Imaging;
 using System.Net;
 
@@ -48,6 +37,7 @@ namespace NNASH
             this.webView1.Engine.Options.DisableGPU = false;
             this.webView1.Engine.Options.DisableSpellChecker = true;
             this.webView1.Engine.Options.CustomUserAgent = "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko";
+            this.webView1.KeyDown += WebView1_KeyDown;
             Navigate("");
             string folderpath = "file:///" + System.Reflection.Assembly.GetEntryAssembly().Location.Replace(@"file:\", "").Replace(Process.GetCurrentProcess().ProcessName + ".exe", "").Replace(@"\", "/").Replace(@"//", ""); 
             string path = @"nnash.html";
@@ -57,6 +47,28 @@ namespace NNASH
             webView1.RegisterJSExtensionFunction("DownloadAudio", new JSExtInvokeHandler(WebView_JSDownloadAudio));
             webView1.RegisterJSExtensionFunction("DownloadVideo", new JSExtInvokeHandler(WebView_JSDownloadVideo));
             webView1.RegisterJSExtensionFunction("OpenVideo", new JSExtInvokeHandler(WebView_JSOpenVideo));
+        }
+        private void WebView1_KeyDown(object sender, EO.Base.UI.WndMsgEventArgs e)
+        {
+            Keys key = (Keys)e.WParam;
+            OnKeyDown(key);
+        }
+        private void Form1_KeyDown(object sender, KeyEventArgs e)
+        {
+            OnKeyDown(e.KeyData);
+        }
+        private void OnKeyDown(Keys keyData)
+        {
+            if (keyData == Keys.F1)
+            {
+                const string message = "• Author: Michaël André Franiatte.\n\r\n\r• Contact: michael.franiatte@gmail.com.\n\r\n\r• Publisher: https://github.com/michaelandrefraniatte.\n\r\n\r• Copyrights: All rights reserved, no permissions granted.\n\r\n\r• License: Not open source, not free of charge to use.";
+                const string caption = "About";
+                MessageBox.Show(message, caption, MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            if (keyData == Keys.Escape)
+            {
+                this.Close();
+            }
         }
         private void webView1_LoadCompleted(object sender, EO.WebBrowser.LoadCompletedEventArgs e)
         {

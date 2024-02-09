@@ -58,3 +58,17 @@ C:\Users\micha\Documents\Perso\tool\NASH\Src\NNASH\NNASH\obj\Release\NNASH.cspro
 C:\Users\micha\Documents\Perso\tool\NASH\Src\NNASH\NNASH\obj\Release\NNASH.csproj.CopyComplete
 C:\Users\micha\Documents\Perso\tool\NASH\Src\NNASH\NNASH\obj\Release\NNASH.exe
 C:\Users\micha\Documents\Perso\tool\NASH\Src\NNASH\NNASH\obj\Release\NNASH.pdb
+C:\Users\micha\Documents\github\NashOfficial\Src\NNASH\NNASH\obj\Release\NNASH.csproj.AssemblyReference.cache
+C:\Users\micha\Documents\github\NashOfficial\Src\NNASH\NNASH\obj\Release\NNASH.Form1.resources
+C:\Users\micha\Documents\github\NashOfficial\Src\NNASH\NNASH\obj\Release\NNASH.Properties.Resources.resources
+C:\Users\micha\Documents\github\NashOfficial\Src\NNASH\NNASH\obj\Release\NNASH.csproj.GenerateResource.cache
+C:\Users\micha\Documents\github\NashOfficial\Src\NNASH\NNASH\obj\Release\NNASH.csproj.CoreCompileInputs.cache
+C:\Users\micha\Documents\github\NashOfficial\Src\NNASH\NNASH\obj\Release\NNASH.exe
+C:\Users\micha\Documents\github\NashOfficial\Src\NNASH\NNASH\obj\Release\NNASH.pdb
+C:\Users\micha\Documents\github\NashOfficial\Src\NNASH\NNASH\bin\Release\NNASH.exe.config
+C:\Users\micha\Documents\github\NashOfficial\Src\NNASH\NNASH\bin\Release\NNASH.exe
+C:\Users\micha\Documents\github\NashOfficial\Src\NNASH\NNASH\bin\Release\NNASH.pdb
+C:\Users\micha\Documents\github\NashOfficial\Src\NNASH\NNASH\bin\Release\EO.Base.xml
+C:\Users\micha\Documents\github\NashOfficial\Src\NNASH\NNASH\bin\Release\EO.WebBrowser.xml
+C:\Users\micha\Documents\github\NashOfficial\Src\NNASH\NNASH\bin\Release\EO.WebEngine.xml
+C:\Users\micha\Documents\github\NashOfficial\Src\NNASH\NNASH\obj\Release\NNASH.csproj.CopyComplete
